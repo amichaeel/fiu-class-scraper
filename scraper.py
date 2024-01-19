@@ -2,9 +2,8 @@ import time
 import re
 import csv
 
+from excess_handler import excess_handler
 from selenium import webdriver
-from selenium.webdriver import Firefox
-from selenium.webdriver.firefox.options import Options
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import Select
 from selenium.webdriver.support.ui import WebDriverWait
@@ -22,9 +21,9 @@ with open('class_data.csv', 'w', newline='') as csvfile:
   writer.writeheader()
   
   # let user choose to run program headless
-  opts = Options()
+  opts = webdriver.ChromeOptions()
   opts.add_argument("-headless") if input("Run program headless? (Y/n)\n").lower() == 'y' else None
-  driver = Firefox(options=opts)
+  driver = webdriver.Chrome(options=opts)
   wait = WebDriverWait(driver, 20)
   
   print("Launching initial load to get all departments.")
@@ -65,14 +64,6 @@ with open('class_data.csv', 'w', newline='') as csvfile:
       is_unchecked = driver.execute_script("arguments[0].click();", checkbox_element)
       print(f"===> checkbox is now unchecked: ", is_unchecked)
     print("==> Unchecked")
-        
-    # narrow search results to undergrad,
-    # print("==> Selecting undergrad")
-    # time.sleep(1)
-    # career_select_element = wait.until(EC.element_to_be_clickable((By.ID, 'SSR_CLSRCH_WRK_ACAD_CAREER$5')))
-    # career_select = Select(career_select_element)
-    # career_select.select_by_visible_text('Undergraduate')
-    # print("==> Undergrad selected")
     
     print("==> Clicking search button for ")
     search_button_element = wait.until(EC.element_to_be_clickable((By.ID, 'CLASS_SRCH_WRK2_SSR_PB_CLASS_SRCH')))
@@ -131,12 +122,12 @@ with open('class_data.csv', 'w', newline='') as csvfile:
       entry = {}
       # extracting each piece of information
       name_parent = driver.find_element(By.ID, f"win0divSSR_CLSRCH_MTG1${i}")
-      entry['class name'] = name_parent.find_element(By.TAG_NAME, "div").text
-      entry['time'] = driver.find_element(By.ID, f'MTG_DAYTIME${i}').text
-      entry['location'] = driver.find_element(By.ID, f'MTG_ROOM${i}').text
-      entry['instructors'] = driver.find_element(By.ID, f'MTG_INSTR${i}').text
-      entry['dates'] = driver.find_element(By.ID, f'MTG_TOPIC${i}').text
-      entry['campus'] = driver.find_element(By.ID, f'DERIVED_CLSRCH_DESCR${i}').text
+      entry['class name'] = name_parent.find_element(By.TAG_NAME, "div").text.strip()
+      entry['time'] = driver.find_element(By.ID, f'MTG_DAYTIME${i}').text.strip()
+      entry['location'] = driver.find_element(By.ID, f'MTG_ROOM${i}').text.strip()
+      entry['instructors'] = driver.find_element(By.ID, f'MTG_INSTR${i}').text.strip()
+      entry['dates'] = driver.find_element(By.ID, f'MTG_TOPIC${i}').text.strip()
+      entry['campus'] = driver.find_element(By.ID, f'DERIVED_CLSRCH_DESCR${i}').text.strip()
       # check if class is online by time being TBA. no need to add
       online = entry['time'] == 'TBA'
       if online: continue
@@ -150,11 +141,12 @@ with open('class_data.csv', 'w', newline='') as csvfile:
       user_input = input("An error occured writing to file. Exit program? (Y/n)")
       if user_input.lower() == "Y": exit()
   
-  # write to txt file for departments with over 200 search results. another script will handle these *not yet written*
+  # write to txt file for departments with over 200 search results and handle this with excess_handler
   if over_200:
     f = open("depts-over-200.txt", "w")
     for dept in over_200: f.write(f"{dept}\n")
     f.close()
+    excess_handler()
     
   # close the browser
   driver.quit()
