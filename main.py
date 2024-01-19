@@ -10,6 +10,7 @@ from selenium.webdriver.support.ui import Select
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import TimeoutException
+from selenium.common.exceptions import ElementClickInterceptedException
 from selenium.webdriver.common.action_chains import ActionChains
 
 url = "https://pslinks.fiu.edu/psc/cslinks/EMPLOYEE/CAMP/c/COMMUNITY_ACCESS.CLASS_SEARCH.GBL&FolderPath=PORTAL_ROOT_OBJECT.HC_CLASS_SEARCH_GBL&IsFolder=false&IgnoreParamTempl=FolderPath,IsFolder"
@@ -56,18 +57,22 @@ with open('class_data.csv', 'w', newline='') as csvfile:
     
     print("==> Unchecking open classes only checkbox")
     checkbox_element = wait.until(EC.element_to_be_clickable((By.ID, 'SSR_CLSRCH_WRK_SSR_OPEN_ONLY$7')))
-    wait.until(EC.invisibility_of_element((By.ID, 'ID_OF_OVERLAPPING_ELEMENT')))
     ActionChains(driver).move_to_element(checkbox_element).perform()
-    checkbox_element.click()
+    try:
+      checkbox_element.click()
+    except ElementClickInterceptedException:
+      print("===> Failed to uncheck through selenium. Executing javascipt")
+      is_unchecked = driver.execute_script("arguments[0].click();", checkbox_element)
+      print(f"===> checkbox is now unchecked: ", is_unchecked)
     print("==> Unchecked")
         
     # narrow search results to undergrad,
-    print("==> Selecting undergrad")
-    time.sleep(1)
-    career_select_element = wait.until(EC.element_to_be_clickable((By.ID, 'SSR_CLSRCH_WRK_ACAD_CAREER$5')))
-    career_select = Select(career_select_element)
-    career_select.select_by_visible_text('Undergraduate')
-    print("==> Undergrad selected")
+    # print("==> Selecting undergrad")
+    # time.sleep(1)
+    # career_select_element = wait.until(EC.element_to_be_clickable((By.ID, 'SSR_CLSRCH_WRK_ACAD_CAREER$5')))
+    # career_select = Select(career_select_element)
+    # career_select.select_by_visible_text('Undergraduate')
+    # print("==> Undergrad selected")
     
     print("==> Clicking search button for ")
     search_button_element = wait.until(EC.element_to_be_clickable((By.ID, 'CLASS_SRCH_WRK2_SSR_PB_CLASS_SRCH')))
@@ -145,11 +150,11 @@ with open('class_data.csv', 'w', newline='') as csvfile:
       user_input = input("An error occured writing to file. Exit program? (Y/n)")
       if user_input.lower() == "Y": exit()
   
-  # write to txt file for departments with over 200 search results. another script will handle these.
+  # write to txt file for departments with over 200 search results. another script will handle these *not yet written*
   if over_200:
     f = open("depts-over-200.txt", "w")
     for dept in over_200: f.write(f"{dept}\n")
     f.close()
-
+    
   # close the browser
   driver.quit()
