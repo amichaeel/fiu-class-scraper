@@ -10,10 +10,12 @@ from selenium.webdriver.support.ui import Select
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import TimeoutException
+from selenium.webdriver.common.action_chains import ActionChains
 
 url = "https://pslinks.fiu.edu/psc/cslinks/EMPLOYEE/CAMP/c/COMMUNITY_ACCESS.CLASS_SEARCH.GBL&FolderPath=PORTAL_ROOT_OBJECT.HC_CLASS_SEARCH_GBL&IsFolder=false&IgnoreParamTempl=FolderPath,IsFolder"
 
 with open('class_data.csv', 'w', newline='') as csvfile:
+  over_200 = []
   fieldnames = ['class name', 'time', 'location', 'instructors', 'dates', 'campus']
   writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
   writer.writeheader()
@@ -36,6 +38,7 @@ with open('class_data.csv', 'w', newline='') as csvfile:
   for index, dept in enumerate(dept_names):
     print("Loading web page...")
     driver.get(url)
+    time.sleep(1)
     print("=> Page loaded")
     
     print(f"\n===> Current department: {dept} | {index+1} out of {len(dept_names)} <=== \n")
@@ -51,6 +54,13 @@ with open('class_data.csv', 'w', newline='') as csvfile:
     location_select.select_by_visible_text('Modesto A. Maidique Campus')  # select main campus
     print("==> Campus selected")
     
+    print("==> Unchecking open classes only checkbox")
+    checkbox_element = wait.until(EC.element_to_be_clickable((By.ID, 'SSR_CLSRCH_WRK_SSR_OPEN_ONLY$7')))
+    wait.until(EC.invisibility_of_element((By.ID, 'ID_OF_OVERLAPPING_ELEMENT')))
+    ActionChains(driver).move_to_element(checkbox_element).perform()
+    checkbox_element.click()
+    print("==> Unchecked")
+        
     # narrow search results to undergrad,
     print("==> Selecting undergrad")
     time.sleep(1)
@@ -70,7 +80,7 @@ with open('class_data.csv', 'w', newline='') as csvfile:
       # wait for either the "no results" message. the "more than 50 entries" warning, or element that signals page load
       time.sleep(2)
       WebDriverWait(driver, 10).until(
-        lambda d: d.find_elements(By.ID, 'DERIVED_CLSMSG_ERROR_TEXT') or # no results
+        lambda d: d.find_elements(By.ID, 'DERIVED_CLSMSG_ERROR_TEXT') or # no results or over 200
                   d.find_elements(By.ID, '#ICSave') or # more than 50 
                   d.find_elements(By.ID, 'win0divSSR_CLSRSLT_WRK_GROUPBOX1') # page loaded
       )
@@ -78,8 +88,12 @@ with open('class_data.csv', 'w', newline='') as csvfile:
       search_warning_element = driver.find_elements(By.ID, '#ICSave')
       
       if len(no_results_elements) > 0:
-        print(no_results_elements)
-        print(f"==> No results found for department: {dept}")
+        error_text = driver.find_element(By.ID, 'DERIVED_CLSMSG_ERROR_TEXT').text
+        if "200" in error_text:
+          over_200.append(dept)
+          print(f"==> {dept} has over 200 results. Skipping")
+        else:
+          print(f"==> No results found for department: {dept}")
         continue  # Skip to the next department
       
       # check for more than 50 warning and click ok if present
@@ -130,6 +144,12 @@ with open('class_data.csv', 'w', newline='') as csvfile:
     except (RuntimeError, TypeError, NameError):
       user_input = input("An error occured writing to file. Exit program? (Y/n)")
       if user_input.lower() == "Y": exit()
-    
+  
+  # write to txt file for departments with over 200 search results. another script will handle these.
+  if over_200:
+    f = open("depts-over-200.txt", "w")
+    for dept in over_200: f.write(f"{dept}\n")
+    f.close()
+
   # close the browser
   driver.quit()
