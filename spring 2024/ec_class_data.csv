@@ -1,0 +1,223 @@
+class name,time,location,instructors,dates,campus
+BME 2740 - Biomedical Engineering Modeling and Simulation,MoWeFr 8:00AM - 8:50AM,Engineering Center 1104,Ilmar Tamames,01/08/2024 - 04/20/2024,Engineering Center
+BME 3403 - Engineering Analysis of Biological Systems I,MoWeFr 11:00AM - 11:50AM,Engineering Center 1105,Michael Brown,01/08/2024 - 04/20/2024,Engineering Center
+BME 3404 - Engineering Analysis of Biological Systems II,MoWeFr 2:00PM - 2:50PM,Engineering Center 1107,Michael Brown,01/08/2024 - 04/20/2024,Engineering Center
+BME 3721 - Biomedical Engineering Data Evaluation Principles,MoWeFr 6:25PM - 7:25PM,Engineering Center 1105,Markondeyaraj Pulugurtha,01/08/2024 - 04/20/2024,Engineering Center
+BME 4011 - Clinical Rotations for Biomedical Engineering,Th 2:00PM - 3:15PM,Engineering Center 1116,Michael Brown,01/08/2024 - 04/20/2024,Engineering Center
+BME 4051L - Biomedical Engineering Lab II,Tu 8:00AM - 10:45AM,Engineering Center 2360,Shuliang Jiao,01/08/2024 - 04/20/2024,Engineering Center
+BME 4051L - Biomedical Engineering Lab II,Tu 2:00PM - 4:45PM,Engineering Center 2360,Shuliang Jiao,01/08/2024 - 04/20/2024,Engineering Center
+BME 4051L - Biomedical Engineering Lab II,We 2:00PM - 4:45PM,Engineering Center 2360,Michael Christie,01/08/2024 - 04/20/2024,Engineering Center
+BME 4051L - Biomedical Engineering Lab II,Mo 2:00PM - 4:45PM,Engineering Center 2360,Shuliang Jiao,01/08/2024 - 04/20/2024,Engineering Center
+BME 4051L - Biomedical Engineering Lab II,Th 2:00PM - 4:45PM,Engineering Center 2360,Michael Christie,01/08/2024 - 04/20/2024,Engineering Center
+BME 4211 - Orthopaedic Biomechan,TuTh 8:00AM - 9:15AM,Engineering Center 2440,Anamika Prasad,01/08/2024 - 04/20/2024,Engineering Center
+BME 4230 - Biomechanics of Cardiovascular Systems,TuTh 12:30PM - 1:45PM,Engineering Center 1116,Joshua Hutcheson,01/08/2024 - 04/20/2024,Engineering Center
+BME 4260 - Engineering Hemodynamics,Tu 8:00AM - 9:15AM,Engineering Center  2410,Michael Christie,01/08/2024 - 04/20/2024,Engineering Center
+BME 4800C - Design of Biomedical Systems and Devices,MoWeFr 8:00AM - 8:50AM,Engineering Center 2330,Hamid Shahrestani,01/08/2024 - 04/20/2024,Engineering Center
+BME 4908 - Senior Design Project,We 5:00PM - 6:15PM,Engineering Center 2420,Michael Christie,01/08/2024 - 04/20/2024,Engineering Center
+BME 5036 - Biotran Processes,MoWe 6:25PM - 7:40PM,Engineering Center 2680,Anthony McGoron,01/08/2024 - 04/20/2024,Engineering Center
+BME 5200 - Orthopedic Biomechanics,TuTh 8:00AM - 9:15AM,Engineering Center 2440,Anamika Prasad,01/08/2024 - 04/20/2024,Engineering Center
+BME 5233 - Biomechanics of Cardiovascular Systems,TuTh 12:30PM - 1:45PM,Engineering Center 1116,Joshua Hutcheson,01/08/2024 - 04/20/2024,Engineering Center
+BME 5411 - Biomedical Physiology and Engineering II,TuTh 12:30PM - 1:45PM,Engineering Center 2420,"TBA OCM, Michael Brown, Oleksii Shandra",01/08/2024 - 04/20/2024,Engineering Center
+EGM 3503 - Applied Mechanics,MoWe 3:00PM - 4:50PM,Engineering Center 1105,Leonel Lagos,01/08/2024 - 04/20/2024,Engineering Center
+CEG 4011L - Geotechnical Test La,Th 6:25PM - 7:55PM,Engineering Center OU 107,Enrique Tamayo,01/08/2024 - 04/20/2024,Engineering Center
+CEG 4011L - Geotechnical Test La,Mo 6:25PM - 7:55PM,Engineering Center OU 107,Enrique Tamayo,01/08/2024 - 04/20/2024,Engineering Center
+CES 3100 - Structural Analysis,TuTh 9:30AM - 10:45AM,Engineering Center 1112,Amal  Elawady,01/08/2024 - 04/20/2024,Engineering Center
+CES 4605 - Steel Design,Mo 8:30AM - 11:00AM,Engineering Center 1113,Ziad Azzi,01/08/2024 - 04/20/2024,Engineering Center
+CES 4711 - Introduction to Prestressed Concrete Structures,Tu 5:00PM - 7:40PM,Engineering Center 2420,Luis Vargas,01/08/2024 - 04/20/2024,Engineering Center
+CES 5715 - Prestressed Concrete Design,Tu 5:00PM - 7:40PM,Engineering Center 2420,Luis Vargas,01/08/2024 - 04/20/2024,Engineering Center
+CGN 2161 - Career Orientation in Civil Engineering,Tu 5:00PM - 6:15PM,Engineering Center 1115,Kingsley Lau,01/08/2024 - 04/20/2024,Engineering Center
+CGN 3300 - Dynamics for Civil Engineering Systems,TuTh 11:00AM - 12:15PM,Engineering Center 1115,Omar Nofal,01/08/2024 - 04/20/2024,Engineering Center
+CGN 4011 - Computational Techniques and Visualization for Civil Engineering Applications,Mo 2:00PM - 4:40PM,Engineering Center 3239,Seung Jae Lee,01/08/2024 - 04/20/2024,Engineering Center
+CGN 4802 - Civil Engineering Senior Design Project,Mo 5:00PM - 7:40PM,Engineering Center 1112,Ramon Sierra,01/08/2024 - 04/20/2024,Engineering Center
+CGN 5411 - Applications of Probability and Statistics to the Analysis of Wind Engineering Experimental Data,Mo 2:00PM - 4:40PM,Engineering Center 1110,"Arindam Gan Chowdhury, Ziad Azzi",01/08/2024 - 04/20/2024,Engineering Center
+CGN 5870 - Corrosion Control in Civil Engineering,We 2:00PM - 4:50PM,Engineering Center 1109,Kingsley Lau,01/08/2024 - 04/20/2024,Engineering Center
+CGN 5930 - Special Topics in Civil Engineering,TuTh 9:30AM - 10:45AM,Engineering Center 1110,CARLOS Chang,01/08/2024 - 04/20/2024,Engineering Center
+CGN 6939 - Graduate Seminar,Fr 1:00PM - 1:50PM,Engineering Center  2410,Albert Gan,01/08/2024 - 04/20/2024,Engineering Center
+CGN 6939 - Graduate Seminar,Th 2:30PM - 3:20PM,Engineering Center 2330,Ali Ebrahimian,01/08/2024 - 04/20/2024,Engineering Center
+CGN 6939 - Graduate Seminar,Tu 11:25AM - 12:15PM,Engineering Center 1114,Amal  Elawady,01/08/2024 - 04/20/2024,Engineering Center
+CWR 3201 - Fluid Mechanics,Fr 9:00AM - 11:40AM,Engineering Center 1112,Jinsheng Huo,01/08/2024 - 04/20/2024,Engineering Center
+CWR 3201L - Fluid Mechanics Laboratory,We 12:00PM - 1:40PM,Engineering Center 3765,Cora Martinez,01/08/2024 - 04/20/2024,Engineering Center
+CWR 3201L - Fluid Mechanics Laboratory,Mo 4:45PM - 6:15PM,Engineering Center 3765,Amaury Betancourt,01/08/2024 - 04/20/2024,Engineering Center
+CWR 3201L - Fluid Mechanics Laboratory,We 4:45PM - 6:15PM,Engineering Center 3765,Amaury Betancourt,01/08/2024 - 04/20/2024,Engineering Center
+CWR 3540 - Water Resources Engineering,TuTh 12:30PM - 1:45PM,Engineering Center 1115,Ali Ebrahimian,01/08/2024 - 04/20/2024,Engineering Center
+CWR 4204 - Hydraulic Engineering,Mo 2:00PM - 4:40PM,Engineering Center 3665,Hector Fuentes,01/08/2024 - 04/20/2024,Engineering Center
+CWR 5535C - Advanced Modeling Applications in Water Resources Engineering,We 6:25PM - 9:05PM,Engineering Center 2830,Hector Fuentes,01/08/2024 - 04/20/2024,Engineering Center
+CWR 5635 - Optimization in Water Resources Engineering,Th 5:00PM - 7:40PM,Engineering Center 1104,Arturo Leon,01/08/2024 - 04/20/2024,Engineering Center
+EGM 3520 - Engineering Mechanics of Materials,TuTh 2:00PM - 3:15PM,Engineering Center 1112,Cora Martinez,01/08/2024 - 04/20/2024,Engineering Center
+EGM 3520L - Materials Testing,Tu 5:50PM - 7:20PM,Engineering Center OU 107,Alfredo Morales,01/08/2024 - 04/20/2024,Engineering Center
+EGM 3520L - Materials Testing,Tu 7:40PM - 9:10PM,Engineering Center OU 107,Alfredo Morales,01/08/2024 - 04/20/2024,Engineering Center
+EGM 5351 - Finite Elment Method,Mo 5:00PM - 7:40PM,Engineering Center 2440,Armin Mehrabi,01/08/2024 - 04/20/2024,Engineering Center
+EGN 1110C - Engineering Drawing,We 5:30PM - 8:10PM,Engineering Center 2832,Joanna Sanabria,01/08/2024 - 04/20/2024,Engineering Center
+EGN 3613 - Engineering Economy,TuTh 12:30PM - 1:45PM,Engineering Center 1112,Khokiat Kengskool,01/08/2024 - 04/20/2024,Engineering Center
+EGN 3613 - Engineering Economy,TuTh 2:00PM - 3:15PM,Engineering Center 1115,Khokiat Kengskool,01/08/2024 - 04/20/2024,Engineering Center
+EGN 4070 - Engineering for Global Sustainability and Environmental Protection,We 2:00PM - 3:45PM,Engineering Center 1104,Anna Bernardo Bricker,01/08/2024 - 04/20/2024,Engineering Center
+ENV 3001L - Environmental Laboratory I,Mo 2:30PM - 4:20PM,Engineering Center 3625,Anna Bernardo Bricker,01/08/2024 - 04/20/2024,Engineering Center
+ENV 3001L - Environmental Laboratory I,Tu 2:30PM - 4:20PM,Engineering Center 3625,"Anna Bernardo Bricker,
+Karla Jimenez",01/08/2024 - 04/20/2024,Engineering Center
+ENV 3001L - Environmental Laboratory I,Fr 12:00PM - 1:50PM,Engineering Center 3625,Anna Bernardo Bricker,01/08/2024 - 04/20/2024,Engineering Center
+ENV 4101 - Fundamentals of Air Pollution Engineering,TuTh 11:00AM - 12:15PM,Engineering Center 2440,Anna Bernardo Bricker,01/08/2024 - 04/20/2024,Engineering Center
+ENV 4513 - Chemistry for Environmental Engineers,MoWe 9:30AM - 10:45AM,Engineering Center 2440,Anna Bernardo Bricker,01/08/2024 - 04/20/2024,Engineering Center
+ENV 4551 - Wastewater Treatment Engineering,TuTh 2:00PM - 3:15PM,Engineering Center 2440,Zhonghong Tang,01/08/2024 - 04/20/2024,Engineering Center
+ENV 5105 - Air Quality Managemt,TuTh 11:00AM - 12:15PM,Engineering Center 2440,Anna Bernardo Bricker,01/08/2024 - 04/20/2024,Engineering Center
+ENV 5517 - Design of Wastewater Treatment Plants,TuTh 2:00PM - 3:15PM,Engineering Center 2440,Zhonghong Tang,01/08/2024 - 04/20/2024,Engineering Center
+ENV 5519 - Chemistry for Environmental Engineers,MoWe 9:30AM - 10:45AM,Engineering Center 2440,Anna Bernardo Bricker,01/08/2024 - 04/20/2024,Engineering Center
+ENV 6614 - Environmental Risk Assessment,Th 5:25PM - 8:05PM,Engineering Center 1107,Zhonghong Tang,01/08/2024 - 04/20/2024,Engineering Center
+SUR 2101C - Surveying,We 5:00PM - 7:40PM,Engineering Center 2330,Alejandro Motta,01/08/2024 - 04/20/2024,Engineering Center
+SUR 2101C - Surveying,Mo 5:00PM - 7:40PM,Engineering Center 2330,Alejandro Motta,01/08/2024 - 04/20/2024,Engineering Center
+TTE 4804 - Highway Geom Design,Fr 9:30AM - 12:10PM,Engineering Center  2410,Priyanka Alluri,01/08/2024 - 04/20/2024,Engineering Center
+TTE 5205 - Advanced Highway Capacity Analysis,We 11:00AM - 1:40PM,Engineering Center 3665,Albert Gan,01/08/2024 - 04/20/2024,Engineering Center
+TTE 5273 - Intelligent Transportation Systems,Mo 1:00PM - 3:50PM,Engineering Center 2440,Mohammed Hadi,01/08/2024 - 04/20/2024,Engineering Center
+TTE 5805 - Advanced Geometric Design of Highways,Fr 9:30AM - 12:10PM,Engineering Center  2410,Priyanka Alluri,01/08/2024 - 04/20/2024,Engineering Center
+BCN 2280 - Const Surveying,Tu 5:00PM - 7:40PM,Engineering Center 1110,Alejandro Motta,01/08/2024 - 04/20/2024,Engineering Center
+BCN 2280 - Const Surveying,Th 3:35PM - 6:15PM,Engineering Center 2420,Alejandro Motta,01/08/2024 - 04/20/2024,Engineering Center
+BCN 3027 - Prin Contruct Mgt,Th 5:00PM - 6:15PM,Engineering Center 1115,Larry Casey,01/08/2024 - 04/20/2024,Engineering Center
+BCN 3611 - Const Estimating I,Tu 6:25PM - 9:05PM,Engineering Center 1107,Wallied Orabi,01/08/2024 - 04/20/2024,Engineering Center
+BCN 3720 - Construction Scheduling I,Th 6:25PM - 9:05PM,Engineering Center 1114,Nipesh Pradhananga,01/08/2024 - 04/20/2024,Engineering Center
+BCN 3730 - Construction Safety,Th 6:25PM - 9:05PM,Engineering Center 1112,Brent Huffman,01/08/2024 - 04/20/2024,Engineering Center
+BCN 3740 - Legal Aspects,We 6:25PM - 9:05PM,Engineering Center 1112,Nestor Bustamante,01/08/2024 - 04/20/2024,Engineering Center
+BCN 4570 - Sustainable Approach to Construction,Tu 3:35PM - 4:50PM,Engineering Center 1115,Mohamed Elzomor,01/08/2024 - 04/20/2024,Engineering Center
+BCN 4703 - Management of Construction Projects,Th 6:25PM - 9:05PM,Engineering Center 1105,Eugenio Jaramillo,01/08/2024 - 04/20/2024,Engineering Center
+BCN 4724 - Scheduling II,Tu 6:25PM - 9:05PM,Engineering Center 2840,Ayman Morad,01/08/2024 - 04/20/2024,Engineering Center
+BCN 4724 - Scheduling II,We 6:25PM - 9:05PM,Engineering Center 2840,Ayman Morad,01/08/2024 - 04/20/2024,Engineering Center
+BCN 4794 - Quality Control in Construction,We 6:25PM - 9:05PM,Engineering Center 2440,Eugenio Jaramillo,01/08/2024 - 04/20/2024,Engineering Center
+BCN 4910 - Senior Project,Mo 6:25PM - 9:05PM,Engineering Center 2840,"Ayman Morad, Wallied Orabi",01/08/2024 - 04/20/2024,Engineering Center
+BCN 5585 - Sustainable Construction,Tu 3:35PM - 4:50PM,Engineering Center 1115,Mohamed Elzomor,01/08/2024 - 04/20/2024,Engineering Center
+BCN 5589 - Hazard Mitigation,Tu 6:25PM - 9:05PM,Engineering Center 1114,Alfredo Ravinet,01/08/2024 - 04/20/2024,Engineering Center
+BCN 5618 - Fundamentals of Construction Estimating,Th 6:25PM - 9:05PM,Engineering Center 2840,"Claudia Calle Muller, Jose Faria, Mahya Sam",01/08/2024 - 04/20/2024,Engineering Center
+BCN 5738 - Construction Safety Management,Th 6:25PM - 9:05PM,Engineering Center 1112,Brent Huffman,01/08/2024 - 04/20/2024,Engineering Center
+BCN 5738 - Construction Safety Management,Th 6:25PM - 9:05PM,Engineering Center 1112,Brent Huffman,01/08/2024 - 04/20/2024,Engineering Center
+BCN 5746 - Construction Legal Environment,We 6:25PM - 9:05PM,Engineering Center 1112,Nestor Bustamante,01/08/2024 - 04/20/2024,Engineering Center
+BCN 5772 - Management of Construction Organizations,Mo 6:25PM - 9:05PM,Engineering Center 1116,Timothy Wensing,01/08/2024 - 04/20/2024,Engineering Center
+BCN 6788C - Artificial Intelligence Applications in Construction Management,We 6:25PM - 9:05PM,Engineering Center 1116,Lufan Wang,01/08/2024 - 04/20/2024,Engineering Center
+BCN 6912 - Project in Construction Engineering and Management,Tu 6:25PM - 9:05PM,Engineering Center 1116,Leonel Lagos,01/08/2024 - 04/20/2024,Engineering Center
+CNT 4153 - Machine Learning in ECE,Tu 11:00AM - 1:30PM,Engineering Center  2410,Himanshu Upadhyay,01/08/2024 - 04/20/2024,Engineering Center
+CNT 6150 - Advanced Deep Learning in ECE,MoWe 11:00AM - 12:15PM,Engineering Center 1110,Jayesh Soni,01/08/2024 - 04/20/2024,Engineering Center
+CNT 6150 - Advanced Deep Learning in ECE,MoWe 11:00AM - 12:15PM,Engineering Center 1110,Jayesh Soni,01/08/2024 - 04/20/2024,Engineering Center
+CNT 6150 - Advanced Deep Learning in ECE,Mo 2:00PM - 4:30PM,Engineering Center 1114,Jayesh Soni,01/08/2024 - 04/20/2024,Engineering Center
+EEE 3303C - Electronics I & Lab,MoWe 4:30PM - 6:15PM,Engineering Center 1107,Nonnarit O-Larnnithipong,01/08/2024 - 04/20/2024,Engineering Center
+EEE 4304C - Electronics II and Lab,TuTh 10:00AM - 11:45AM,Engineering Center 2830,Gustavo Roig,01/08/2024 - 04/20/2024,Engineering Center
+EEE 4510 - Introduction to Digital Signal Processing,TuTh 2:00PM - 3:15PM,Engineering Center 1109,Armando Barreto,01/08/2024 - 04/20/2024,Engineering Center
+EEE 4550 - Introduction to Radar Systems,MoWe 3:30PM - 4:45PM,Engineering Center 1116,Satheesh Bojja Venkatakrishnan,01/08/2024 - 04/20/2024,Engineering Center
+EEE 5543 - Random Signal Principles,TuTh 9:30AM - 11:50AM,Engineering Center 1116,Vladimir Pozdin,03/04/2024 - 04/20/2024,Engineering Center
+EEE 5557 - Principles of Modern Radar,MoWe 3:30PM - 4:45PM,Engineering Center 1116,Satheesh Bojja Venkatakrishnan,01/08/2024 - 04/20/2024,Engineering Center
+EEE 5718 - loT Security and Privacy,MoWe 2:00PM - 4:45PM,Engineering Center  2410,Mohammad Shah Alam,01/08/2024 - 02/24/2024,Engineering Center
+EEE 6765 - Advanced Embedded Systems Design and Implementation for IoT Applications,We 1:00PM - 3:50PM,Engineering Center 2840,Ou Bai,01/08/2024 - 04/20/2024,Engineering Center
+EEL 2880 - C Programming for Embedded Systems,TuTh 11:00AM - 12:15PM,Engineering Center 2832,Nonnarit O-Larnnithipong,01/08/2024 - 04/20/2024,Engineering Center
+EEL 3110C - Circuit Analysis and Lab,TuTh 8:00AM - 9:45AM,Engineering Center 1115,Gustavo Roig,01/08/2024 - 04/20/2024,Engineering Center
+EEL 3110C - Circuit Analysis and Lab,Sa 9:00AM - 12:45PM,Engineering Center 2420,Gustavo Chaparro Baquero,01/08/2024 - 04/20/2024,Engineering Center
+EEL 3120 - Introduction to Linear Systems in Engineering,MoWe 5:00PM - 6:15PM,Engineering Center 1104,Jean Andrian,01/08/2024 - 04/20/2024,Engineering Center
+EEL 3135 - Signals And Systems,TuTh 5:00PM - 6:15PM,Engineering Center 1105,Jean Andrian,01/08/2024 - 04/20/2024,Engineering Center
+EEL 3370 - C++ Programming for Embedded Systems,MoWe 5:00PM - 6:15PM,Engineering Center 3239,Luis Galarza,01/08/2024 - 04/20/2024,Engineering Center
+EEL 3712 - Logic Design I,TuTh 11:00AM - 12:15PM,Engineering Center 1112,Mercedes Cabrerizo,01/08/2024 - 04/20/2024,Engineering Center
+EEL 3712L - Logic Design I Lab,Fr 3:00PM - 5:00PM,Engineering Center 2832,Chaohao Lin,01/08/2024 - 04/20/2024,Engineering Center
+EEL 3712L - Logic Design I Lab,Th 6:30PM - 8:30PM,Engineering Center 2830,Chaohao Lin,01/08/2024 - 04/20/2024,Engineering Center
+EEL 4063 - Introduction to Business Decisions,Mo 2:00PM - 4:45PM,Engineering Center 1104,Reynaldo Padro,01/08/2024 - 04/20/2024,Engineering Center
+EEL 4090C - Technical Sales for Engineers,Tu 2:00PM - 4:45PM,Engineering Center 2330,Rafael Soltero Venegas,01/08/2024 - 04/20/2024,Engineering Center
+EEL 4213 - Power Systems I,TuTh 12:30PM - 1:45PM,Engineering Center 2330,Juan Farah,01/08/2024 - 04/20/2024,Engineering Center
+EEL 4213L - Energy Conversion Lab,Th 3:00PM - 5:00PM,Engineering Center 3260,S M Sajjad Hossain Rafin,01/08/2024 - 04/20/2024,Engineering Center
+EEL 4410 - Introduction to Fields and Waves,TuTh 11:00AM - 12:15PM,Engineering Center 2840,Konstantinos Zekios,01/08/2024 - 04/20/2024,Engineering Center
+EEL 4421 - Introduction to RF Circuit Design,MoWe 11:00AM - 12:15PM,Engineering Center 3239,Elias Alwan,01/08/2024 - 04/20/2024,Engineering Center
+EEL 4709C - Computer Design,MoWe 4:00PM - 5:15PM,Engineering Center 2832,Mandrita Banerjee,01/08/2024 - 04/20/2024,Engineering Center
+EEL 4730 - Programming Embedded Systems,TuTh 5:00PM - 7:40PM,Engineering Center 2832,MD Shafiul Islam,03/04/2024 - 04/20/2024,Engineering Center
+EEL 4740 - Embedded Computing Systems,TuTh 1:30PM - 2:45PM,Engineering Center  2410,Atoussa Tehrani,01/08/2024 - 04/20/2024,Engineering Center
+"EEL 4920 - Senior Design I: Ethics, Communications, and Constraints",MoWe 5:00PM - 6:15PM,Engineering Center 1113,Wilmer Arellano,01/08/2024 - 04/20/2024,Engineering Center
+EEL 4930 - Sp Top Elec Eng,MoWe 6:25PM - 7:40PM,Engineering Center 1115,Amaury Betancourt,01/08/2024 - 04/20/2024,Engineering Center
+EEL 4930 - Sp Top Elec Eng,TuTh 11:00AM - 12:15PM,Engineering Center 2420,Deidra Hodges,01/08/2024 - 04/20/2024,Engineering Center
+EEL 4930 - Sp Top Elec Eng,TuTh 12:30PM - 1:45PM,Engineering Center 1113,Deidra Hodges,01/08/2024 - 04/20/2024,Engineering Center
+EEL 4930 - Sp Top Elec Eng,TuTh 9:30AM - 10:45AM,Engineering Center 1113,Arif Sarwat,01/08/2024 - 04/20/2024,Engineering Center
+EEL 4933 - Engineering Entrepreneurship,Mo 6:25PM - 9:05PM,Engineering Center 1104,Reynaldo Padro,01/08/2024 - 04/20/2024,Engineering Center
+EEL 5171 - Advanced Systems Theory,TuTh 9:30AM - 12:15PM,Engineering Center 3115,Kang Yen,01/08/2024 - 02/24/2024,Engineering Center
+EEL 5426 - RF Circuit Design,MoWe 11:00AM - 12:15PM,Engineering Center 3239,Elias Alwan,01/08/2024 - 04/20/2024,Engineering Center
+EEL 5500 - Digital Communication Systems I,MoWe 8:30AM - 9:45AM,Engineering Center  2410,Habarakada Madanayake,01/08/2024 - 04/20/2024,Engineering Center
+EEL 5669 - Autonomous Systems and Controls,MoWe 10:30AM - 11:50AM,Engineering Center 2330,Ou Bai,01/08/2024 - 04/20/2024,Engineering Center
+EEL 5741 - Advanced Microprocessor Systems,Th 5:00PM - 7:40PM,Engineering Center 2440,Gang Quan,01/08/2024 - 04/20/2024,Engineering Center
+EEL 5935 - Advanced Special Topics,MoWe 6:25PM - 7:40PM,Engineering Center 1115,Amaury Betancourt,01/08/2024 - 04/20/2024,Engineering Center
+EEL 5935 - Advanced Special Topics,TuTh 11:00AM - 12:15PM,Engineering Center 2420,Deidra Hodges,01/08/2024 - 04/20/2024,Engineering Center
+EEL 5935 - Advanced Special Topics,TuTh 12:30PM - 1:45PM,Engineering Center 1113,Deidra Hodges,01/08/2024 - 04/20/2024,Engineering Center
+EEL 5935 - Advanced Special Topics,TuTh 9:30AM - 10:45AM,Engineering Center 1113,Arif Sarwat,01/08/2024 - 04/20/2024,Engineering Center
+EEL 6261 - Power Systems Engineering,Th 5:00PM - 7:40PM,Engineering Center  2410,Osama Mohammed,01/08/2024 - 04/20/2024,Engineering Center
+EEL 6726 - Advanced VLSI Design,We 3:30PM - 6:15PM,Engineering Center 2440,Mst Shamim Ara Shawkat,01/08/2024 - 04/20/2024,Engineering Center
+EEL 6795 - Power Aware Computing,ThFr 6:25PM - 9:05PM,Engineering Center 1116,Gustavo Chaparro Baquero,03/04/2024 - 04/20/2024,Engineering Center
+EEL 6812 - Adv In Neural Nets,TuTh 12:30PM - 1:45PM,Engineering Center 1114,Armando Barreto,01/08/2024 - 04/20/2024,Engineering Center
+EEL 6821 - Computer Vision,MoWe 5:00PM - 6:15PM,Engineering Center  2410,Malek Adjouadi,01/08/2024 - 04/20/2024,Engineering Center
+EGN 1002 - Engineering Orient,TuTh 2:00PM - 3:15PM,Engineering Center 1113,Mandrita Banerjee,01/08/2024 - 04/20/2024,Engineering Center
+EGN 1002 - Engineering Orient,MoWe 5:00PM - 6:15PM,Engineering Center 1109,Mohammad Shah Alam,01/08/2024 - 04/20/2024,Engineering Center
+TCN 5271 - Advanced IoT Communications and Networking,We 11:00AM - 1:45PM,Engineering Center  2410,Kemal Akkaya,01/08/2024 - 04/20/2024,Engineering Center
+EIN 4933 - Special Topics in Industrial Engineering,Mo 5:00PM - 6:15PM,Engineering Center 3115,Zane Tavana,01/08/2024 - 04/20/2024,Engineering Center
+EIN 5226C - Total Quality Management for Engineers,Th 6:25PM - 7:40PM,Engineering Center 1110,"Oscar Saenz, Zane Tavana",01/08/2024 - 04/20/2024,Engineering Center
+EIN 5359 - Industrial Financial Decisions,Mo 5:00PM - 6:15PM,Engineering Center 3115,Zane Tavana,01/08/2024 - 04/20/2024,Engineering Center
+EIN 5367 - Design of Production Systems,Mo 6:25PM - 7:40PM,Engineering Center 3115,Qiansan Shen,01/08/2024 - 04/20/2024,Engineering Center
+EIN 6345 - Inventory Control System,Tu 5:00PM - 6:15PM,Engineering Center 3115,Qiansan Shen,01/08/2024 - 04/20/2024,Engineering Center
+ESI 3321 - Operations Research I: Deterministic Models,Tu 6:25PM - 7:40PM,Engineering Center 2440,Shabnam Rezapour Behnagh,01/08/2024 - 04/20/2024,Engineering Center
+ESI 4452 - Project Management Systems Design,We 6:25PM - 7:40PM,Engineering Center 1109,Oscar Saenz,01/08/2024 - 04/20/2024,Engineering Center
+ESI 6316 - Applications of OR in Manufacturing,Tu 6:25PM - 7:40PM,Engineering Center 2440,Shabnam Rezapour Behnagh,01/08/2024 - 04/20/2024,Engineering Center
+ESI 6455 - Advanced Engineering Project Management,We 6:25PM - 7:40PM,Engineering Center 1109,Oscar Saenz,01/08/2024 - 04/20/2024,Engineering Center
+IDH 2004 - Honors Seminar IV,TuTh 9:45AM - 11:00AM,Engineering Center 2440,Daniela Radu,01/08/2024 - 04/20/2024,Engineering Center
+ESI 3215 - Evaluation of Engineering Data I,TuTh 5:00PM - 6:15PM,Engineering Center 1112,Atoussa Tehrani,01/08/2024 - 04/20/2024,Engineering Center
+ESI 3215 - Evaluation of Engineering Data I,TuTh 9:30AM - 10:45AM,Engineering Center 3239,Atoussa Tehrani,01/08/2024 - 04/20/2024,Engineering Center
+MAC 2283 - Calculus III for Engineering,"Tu 9:00AM - 10:50AM","Engineering Center 1114","Jeremiah Hower Jeremiah Hower","01/08/2024 - 04/20/2024",Engineering Center
+MAC 2283 - Calculus III for Engineering,"Th 9:00AM - 11:50AM","Engineering Center 1114","Jeremiah Hower Jeremiah Hower","01/08/2024 - 04/20/2024",Engineering Center
+MAC 2283 - Calculus III for Engineering,"Mo 1:00PM - 2:50PM We 1:00PM - 3:50PM","Engineering Center 2330 Engineering Center 2330","Lotfi  HermiLotfi  Hermi","01/08/2024 - 04/20/2024 01/08/2024 - 04/20/2024",Engineering Center
+MAP 2302 - Differential Equations,WeFr 2:00PM - 3:15PM,Engineering Center 1114,Julian Edward,01/08/2024 - 04/20/2024,Engineering Center
+EAS 4105 - Intro Flight Mech,TuTh 2:00PM - 3:15PM,Engineering Center 1104,Pezhman Mardanpour,01/08/2024 - 04/20/2024,Engineering Center
+EAS 5124 - Aerodynamics and Flight Mechanics,TuTh 2:00PM - 3:15PM,Engineering Center 1104,Pezhman Mardanpour,01/08/2024 - 04/20/2024,Engineering Center
+EGM 3311 - Analysis Eng Syst,TuTh 9:30AM - 10:45AM,Engineering Center 1105,Markus Downey,01/08/2024 - 04/20/2024,Engineering Center
+EGM 3311 - Analysis Eng Syst,TuTh 12:30PM - 1:45PM,Engineering Center 3239,Andriy Durygin,01/08/2024 - 04/20/2024,Engineering Center
+EGM 6422 - Advanced Computational Engineering Analysis,TuTh 12:30PM - 1:45PM,Engineering Center 1110,Pezhman Mardanpour,01/08/2024 - 04/20/2024,Engineering Center
+EGM 6570 - Fracture Mechanics,TuTh 2:00PM - 3:15PM,Engineering Center 2840,Aaron Tallman,01/08/2024 - 04/20/2024,Engineering Center
+EGN 3311 - Statics,TuTh 9:30AM - 10:45AM,Engineering Center 1107,Carmen Muller Karger Pereda,01/08/2024 - 04/20/2024,Engineering Center
+EGN 3311 - Statics,TuTh 2:00PM - 3:15PM,Engineering Center 1107,Nidal Alif,01/08/2024 - 04/20/2024,Engineering Center
+EGN 3311 - Statics,Th 8:00AM - 9:15AM,Engineering Center 1107,Carmen Muller Karger Pereda,01/08/2024 - 04/20/2024,Engineering Center
+EGN 3321 - Dynamics,MoWeFr 10:00AM - 10:50AM,Engineering Center 1104,Ju Sun,01/08/2024 - 04/20/2024,Engineering Center
+EGN 3321 - Dynamics,MoWe 6:25PM - 7:40PM,Engineering Center 1107,Gonzalo Gonzalez Rey,01/08/2024 - 04/20/2024,Engineering Center
+EGN 3321 - Dynamics,MoWeFr 11:00AM - 11:50AM,Engineering Center 1104,Ju Sun,01/08/2024 - 04/20/2024,Engineering Center
+EGN 3321 - Dynamics,MoWeFr 1:00PM - 1:50PM,Engineering Center 1104,Ju Sun,01/08/2024 - 04/20/2024,Engineering Center
+EGN 3343 - Thermodynamics I,MoWe 5:00PM - 6:15PM,Engineering Center 1105,Yiding Cao,01/08/2024 - 04/20/2024,Engineering Center
+EGN 3365 - Materials in Engineering,MoWeFr 12:00PM - 12:50PM,Engineering Center 1105,Cheng-Yu Lai,01/08/2024 - 04/20/2024,Engineering Center
+EGN 3365 - Materials in Engineering,TuTh 11:00AM - 12:15PM,Engineering Center 1105,Markus Downey,01/08/2024 - 04/20/2024,Engineering Center
+EGS 1006 - Introduction to Engineering,TuTh 2:00PM - 3:15PM,Engineering Center 1105,Norman Munroe,01/08/2024 - 04/20/2024,Engineering Center
+EIN 3390 - Manufacturing Processes,Tu 11:00AM - 12:15PM,Engineering Center 1113,Ibrahim Tansel,01/08/2024 - 04/20/2024,Engineering Center
+EMA 3066 - Polymer Sci Engr,TuTh 12:30PM - 1:45PM,Engineering Center 1109,Daniela Radu,01/08/2024 - 04/20/2024,Engineering Center
+EMA 3702 - Mechanics and Materials Science,MoWeFr 1:00PM - 1:50PM,Engineering Center 1112,Benjamin Boesl,01/08/2024 - 04/20/2024,Engineering Center
+EMA 3702L - Mechanics and Materials Science Lab,Tu 8:00AM - 10:50AM,Engineering Center 3275,Meer Safa,01/08/2024 - 04/20/2024,Engineering Center
+EMA 3702L - Mechanics and Materials Science Lab,Th 12:30PM - 3:15PM,Engineering Center 3275,Meer Safa,01/08/2024 - 04/20/2024,Engineering Center
+EML 1533 - Introduction to CAD for Mechanical Engineers,TuTh 5:00PM - 6:15PM,Engineering Center 3239,Wei Yu Bao,01/08/2024 - 04/20/2024,Engineering Center
+EML 1533 - Introduction to CAD for Mechanical Engineers,MoWeFr 9:00AM - 9:50AM,Engineering Center 2832,Andriy Durygin,01/08/2024 - 04/20/2024,Engineering Center
+EML 2032 - Programming for Mechanical Engineering,TuTh 12:30PM - 1:45PM,Engineering Center 2832,Aaron Tallman,01/08/2024 - 04/20/2024,Engineering Center
+EML 3036 - Simulation Software for Mechanical Engineers,TuTh 12:30PM - 1:45PM,Engineering Center 2710,Wei Yu Bao,01/08/2024 - 04/20/2024,Engineering Center
+EML 3126 - Transport Phenomena,MoWeFr 9:00AM - 9:50AM,Engineering Center 1105,Saja Al Rifai,01/08/2024 - 04/20/2024,Engineering Center
+EML 3126 - Transport Phenomena,MoWeFr 4:00PM - 4:50PM,Engineering Center 1112,Saja Al Rifai,01/08/2024 - 04/20/2024,Engineering Center
+EML 3126L - Transp Pheno Lab,Fr 8:00AM - 10:50AM,Engineering Center 3330,Meer Safa,01/08/2024 - 04/20/2024,Engineering Center
+EML 3126L - Transp Pheno Lab,Tu 12:30PM - 3:15PM,Engineering Center 3330,Meer Safa,01/08/2024 - 04/20/2024,Engineering Center
+EML 3222 - Systems Dynamics,TuTh 12:30PM - 1:45PM,Engineering Center 1107,Aparna Aravelli,01/08/2024 - 04/20/2024,Engineering Center
+EML 3301L - Instrumentation and Measurement Laboratory,We 12:00PM - 2:50PM,Engineering Center 3410,Meer Safa,01/08/2024 - 04/20/2024,Engineering Center
+EML 3450 - Energy Systems,MoWeFr 11:00AM - 11:50AM,Engineering Center 1109,Saja Al Rifai,01/08/2024 - 04/20/2024,Engineering Center
+EML 3500 - Mechanical Design I,MoWeFr 10:00AM - 10:50AM,Engineering Center 1107,Gonzalo Gonzalez Rey,01/08/2024 - 04/20/2024,Engineering Center
+EML 4140 - Heat Transfer,TuTh 11:00AM - 12:15PM,Engineering Center 1107,Alicia Aron,01/08/2024 - 04/20/2024,Engineering Center
+EML 4220 - Mech Vibrations,TuTh 12:30PM - 1:45PM,Engineering Center 1104,Carmen Muller Karger Pereda,01/08/2024 - 04/20/2024,Engineering Center
+EML 4501 - Mechanical Design II,MoWeFr 11:00AM - 11:50AM,Engineering Center 1115,Seyad Ebrahim Beladi,01/08/2024 - 04/20/2024,Engineering Center
+EML 4503 - Prod Mach Mod,Tu 2:00PM - 4:45PM,Engineering Center 2832,Tony Thomas,01/08/2024 - 04/20/2024,Engineering Center
+EML 4551 - Ethics and Design Project Organization,MoWe 1:00PM - 2:50PM,Engineering Center 1115,"Tony Thomas, Markus Downey, Kevin Boutsen",01/08/2024 - 04/20/2024,Engineering Center
+EML 4561 - Introduction to Electronic Packaging,MoWeFr 1:00PM - 1:50PM,Engineering Center 1109,Markondeyaraj Pulugurtha,01/08/2024 - 04/20/2024,Engineering Center
+EML 4601 - Princ Refr Air Cond,MoWeFr 2:00PM - 2:50PM,Engineering Center 1112,Yiding Cao,01/08/2024 - 04/20/2024,Engineering Center
+EML 4706 - Design of Thermal and Fluid Systems,MoWeFr 12:00PM - 12:50PM,Engineering Center 1104,Kevin Boutsen,01/08/2024 - 04/20/2024,Engineering Center
+EML 4721 - Introduction to Computational Thermo-Fluid,Fr 2:00PM - 3:15PM,Engineering Center 1104,Seyad Ebrahim Beladi,01/08/2024 - 04/20/2024,Engineering Center
+EML 4804 - Introduction to Mechatronics,TuTh 9:30AM - 10:45AM,Engineering Center 2710,Andriy Durygin,01/08/2024 - 04/20/2024,Engineering Center
+EML 4806 - Modeling Of Robots,MoWeFr 10:00AM - 10:50AM,Engineering Center 1115,Abderrachid Hamrani,01/08/2024 - 04/20/2024,Engineering Center
+EML 4840 - Robot Design,TuTh 5:00PM - 6:15PM,Engineering Center 1116,Anthony Abrahao,01/08/2024 - 04/20/2024,Engineering Center
+EML 4905 - Senior Design Project,MoWe 3:00PM - 4:50PM,Engineering Center 1115,"Kevin Boutsen, Benjamin Boesl, Darryl Dickerson, Markus Downey, Tony Thomas",01/08/2024 - 04/20/2024,Engineering Center
+EML 4993 - Data Science including Neural Networks and Deep Learning in Mechanical Engineering,Tu 6:25PM - 7:40PM,Engineering Center 3239,Ibrahim Tansel,01/08/2024 - 04/20/2024,Engineering Center
+EML 5104 - Classical Thermodynamics,TuTh 2:00PM - 3:15PM,Engineering Center 1114,Bilal El-Zahab,01/08/2024 - 04/20/2024,Engineering Center
+EML 5505 - Smart Machine Design and Development,TuTh 8:00AM - 9:15AM,Engineering Center 2830,Andriy Durygin,01/08/2024 - 04/20/2024,Engineering Center
+EML 5615C - Cad - A/C,MoWeFr 2:00PM - 2:50PM,Engineering Center 1112,Yiding Cao,01/08/2024 - 04/20/2024,Engineering Center
+EML 5993 - Data Science from Digitization to Automated Decision Making in Mechanical Engineering 1,Tu 6:25PM - 7:40PM,Engineering Center 3239,Ibrahim Tansel,01/08/2024 - 04/20/2024,Engineering Center
+EML 6223 - Advanced Mechanical Vibration Analysis,TuTh 9:30AM - 10:45AM,Engineering Center 2330,Dwayne McDaniel,01/08/2024 - 04/20/2024,Engineering Center
+EML 6805 - Advanced Design of Robots,TuTh 5:00PM - 6:15PM,Engineering Center 1116,Anthony Abrahao,01/08/2024 - 04/20/2024,Engineering Center
+EML 6935 - Graduate Seminar,Fr 3:00PM - 4:50PM,Engineering Center 1105,Darryl Dickerson,01/08/2024 - 04/20/2024,Engineering Center
+PHY 2049 - Physics with Calculus II,TuTh 10:35AM - 12:15PM,Engineering Center 1109,Richard Bone,01/08/2024 - 04/20/2024,Engineering Center
+EGN 3910 - Human-centered Design within Systems and Society,TuTh 11:00AM - 12:15PM,Engineering Center 2330,Alexandra Strong,01/08/2024 - 04/20/2024,Engineering Center
+EGN 4944 - Interdisciplinary Capstone Design Project II,MoWe 3:00PM - 4:50PM,Engineering Center 1113,Monica Cardella,01/08/2024 - 04/20/2024,Engineering Center
+EGN 6939 - Advanced Special Topics,Th 5:00PM - 7:40PM,Engineering Center 3327,Arvind Agarwal,01/08/2024 - 04/20/2024,Engineering Center
+EGN 6939 - Advanced Special Topics,Tu 5:00PM - 7:40PM,Engineering Center 1109,Cheng-Yu Lai,01/08/2024 - 04/20/2024,Engineering Center
+EGS 3060 - Engineering Professional Development for a Global Society,TuTh 2:00PM - 3:15PM,Engineering Center 2420,Stephanie Lunn,01/08/2024 - 04/20/2024,Engineering Center
+EGS 6055 - Foundations of Engineering and Computing Teaching and Learning,Th 5:00PM - 7:40PM,Engineering Center 2330,Stephen Secules,01/08/2024 - 04/20/2024,Engineering Center
